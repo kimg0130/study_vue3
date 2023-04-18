@@ -9,10 +9,6 @@
 
     <v-spacer></v-spacer>
 
-<!--    <v-btn variant="text" icon="mdi-magnify"></v-btn>-->
-
-<!--    <v-btn variant="text" icon="mdi-filter"></v-btn>-->
-
     <v-btn variant="text" icon="mdi-home" @click="router.push('/');"></v-btn>
   </v-app-bar>
 
