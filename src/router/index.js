@@ -24,6 +24,11 @@ const routes = [
         name: "piniaTest",
         component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/PiniaTest.vue'),
       },
+      {
+        path: "/twoWayBinding",
+        name: "twoWayBinding",
+        component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/TwoWayBinding.vue'),
+      },
     ],
   },
 

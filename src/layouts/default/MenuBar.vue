@@ -32,7 +32,8 @@ import router from "@/router";
 const drawer  = ref(false)
 const items = ref([
   { id: 1, title: 'life cycle', path:'/lifeCycle' },
-  { id: 2, title: 'pinia test', path:'/piniaTest' }
+  { id: 2, title: 'pinia test', path:'/piniaTest' },
+  { id: 2, title: '양방향바인딩', path:'/twoWayBinding' },
 ])
 
 const onClickMenu = (item) => {
