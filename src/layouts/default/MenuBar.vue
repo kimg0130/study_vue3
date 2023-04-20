@@ -32,7 +32,7 @@ import router from "@/router";
 const drawer  = ref(false)
 const items = ref([
   { id: 1, title: 'life cycle', path:'/lifeCycle' },
-  { id: 2, title: 'menu 2', path:'/menu2' }
+  { id: 2, title: 'pinia test', path:'/piniaTest' }
 ])
 
 const onClickMenu = (item) => {

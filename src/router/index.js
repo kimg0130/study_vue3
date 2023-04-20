@@ -20,9 +20,9 @@ const routes = [
         component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/LifeCycle.vue'),
       },
       {
-        path: "/menu2",
-        name: "menu2",
-        component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/Menu2.vue'),
+        path: "/piniaTest",
+        name: "piniaTest",
+        component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/PiniaTest.vue'),
       },
     ],
   },
