@@ -31,12 +31,12 @@ import {ref} from "vue";
 import router from "@/router";
 const drawer  = ref(false)
 const items = ref([
-  { id: 1, title: 'basic', path:'/basic' },
-  { id: 2, title: 'menu 2', path:'/' }
+  { id: 1, title: 'life cycle', path:'/lifeCycle' },
+  { id: 2, title: 'menu 2', path:'/menu2' }
 ])
 
 const onClickMenu = (item) => {
-  console.log('item', item)
+  drawer.value = false;
   router.push(item.path);
 }
   //

@@ -1,8 +1,9 @@
 <template>
-  <div>
-    basic page
-  </div>
+  <v-btn @clic="handleClick">Button</v-btn>
 </template>
 
 <script setup>
+const handleClick = () => {
+
+}
 </script>

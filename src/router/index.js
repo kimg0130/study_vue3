@@ -15,9 +15,9 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
       },
       {
-        path: "/basic",
-        name: "basic",
-        component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/Basic.vue'),
+        path: "/lifeCycle",
+        name: "lifeCycle",
+        component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/LifeCycle.vue'),
       },
       {
         path: "/menu2",
