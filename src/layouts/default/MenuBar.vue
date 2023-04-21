@@ -5,9 +5,7 @@
   >
     <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-    <v-toolbar-title>Vue3 study</v-toolbar-title>
-
-    <v-spacer></v-spacer>
+    <v-toolbar-title>Vue3 study (with vuetify)</v-toolbar-title>
 
     <v-btn variant="text" icon="mdi-home" @click="router.push('/');"></v-btn>
   </v-app-bar>
@@ -33,7 +31,7 @@ const drawer  = ref(false)
 const items = ref([
   { id: 1, title: 'life cycle', path:'/lifeCycle' },
   { id: 2, title: 'pinia test', path:'/piniaTest' },
-  { id: 2, title: '양방향바인딩', path:'/twoWayBinding' },
+  { id: 2, title: 'data 바인딩', path:'/dataBinding' },
 ])
 
 const onClickMenu = (item) => {

@@ -25,9 +25,9 @@ const routes = [
         component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/PiniaTest.vue'),
       },
       {
-        path: "/twoWayBinding",
-        name: "twoWayBinding",
-        component: () => import(/* webpackChunkName: "basic" */ '@/views/basic/TwoWayBinding.vue'),
+        path: "/dataBinding",
+        name: "dataBinding",
+        component: () => import(/* webpackChunkName: "basic" */ '@/views/binding/DataBinding.vue'),
       },
     ],
   },
