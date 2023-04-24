@@ -33,6 +33,7 @@ const items = ref([
   { id: 2, title: 'pinia test', path:'/piniaTest' },
   { id: 2, title: 'data 바인딩', path:'/dataBinding' },
   { id: 2, title: 'v-model modifiers', path:'/modifiers' },
+  { id: 2, title: 'axios test', path:'/apiTest' },
 ])
 
 const onClickMenu = (item) => {

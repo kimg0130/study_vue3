@@ -31,9 +31,9 @@
 <script setup>
 import SummaryCard from "@/components/common/SummaryCard.vue";
 
-import Child1 from "@/views/binding/Child1.vue";
-import Child2 from "@/views/binding/Child2.vue";
-import Child3 from "@/views/binding/Child3.vue";
+import Child1 from "@/views/data/Child1.vue";
+import Child2 from "@/views/data/Child2.vue";
+import Child3 from "@/views/data/Child3.vue";
 
 import {ref} from "vue";
 const value1 = ref('')

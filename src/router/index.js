@@ -27,12 +27,17 @@ const routes = [
       {
         path: "/dataBinding",
         name: "dataBinding",
-        component: () => import(/* webpackChunkName: "basic" */ '@/views/binding/DataBinding.vue'),
+        component: () => import(/* webpackChunkName: "basic" */ '@/views/data/DataBinding.vue'),
       },
       {
         path: "/modifiers",
         name: "modifiers",
         component: () => import(/* webpackChunkName: "basic" */ '@/views/modifiers/Modifiers.vue'),
+      },
+      {
+        path: "/apiTest",
+        name: "apiTest",
+        component: () => import(/* webpackChunkName: "basic" */ '@/views/api/AxiosTest.vue'),
       },
     ],
   },
