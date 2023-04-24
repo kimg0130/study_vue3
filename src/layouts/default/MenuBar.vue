@@ -32,6 +32,7 @@ const items = ref([
   { id: 1, title: 'life cycle', path:'/lifeCycle' },
   { id: 2, title: 'pinia test', path:'/piniaTest' },
   { id: 2, title: 'data 바인딩', path:'/dataBinding' },
+  { id: 2, title: 'v-model modifiers', path:'/modifiers' },
 ])
 
 const onClickMenu = (item) => {

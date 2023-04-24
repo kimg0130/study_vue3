@@ -29,6 +29,11 @@ const routes = [
         name: "dataBinding",
         component: () => import(/* webpackChunkName: "basic" */ '@/views/binding/DataBinding.vue'),
       },
+      {
+        path: "/modifiers",
+        name: "modifiers",
+        component: () => import(/* webpackChunkName: "basic" */ '@/views/modifiers/Modifiers.vue'),
+      },
     ],
   },
 
