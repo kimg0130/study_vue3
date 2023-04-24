@@ -1,21 +1,11 @@
 <template>
-
-  <v-card
-    class="mx-auto"
-    variant="tonal"
-  >
-    <v-card-item>
-      <div>
-        <div class="text-h6 mb-1">
-          Data 바인딩
-        </div>
-        <div class="text-caption">
-          Vue3에서 양방향 바인딩을 위해서는 props 대신 v-model을 사용한다!<br/>
-          props로 넘긴데이터는 단방향임!
-        </div>
-      </div>
-    </v-card-item>
-  </v-card>
+  <SummaryCard>
+    <template #title>
+      Data 바인딩
+    </template>
+    Vue3에서 양방향 바인딩을 위해서는 props 대신 v-model을 사용한다!<br/>
+    props로 넘긴데이터는 단방향임!
+  </SummaryCard>
 
   <v-divider class="mt-5 mb-5"></v-divider>
 
@@ -39,6 +29,8 @@
 </template>
 
 <script setup>
+import SummaryCard from "@/components/common/SummaryCard.vue";
+
 import Child1 from "@/views/binding/Child1.vue";
 import Child2 from "@/views/binding/Child2.vue";
 import Child3 from "@/views/binding/Child3.vue";
