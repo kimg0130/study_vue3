@@ -34,6 +34,7 @@ const items = ref([
   { id: 2, title: 'data 바인딩', path:'/dataBinding' },
   { id: 2, title: 'v-model modifiers', path:'/modifiers' },
   { id: 2, title: 'axios test', path:'/apiTest' },
+  { id: 2, title: 'swiper', path:'/swiper' },
 ])
 
 const onClickMenu = (item) => {

@@ -39,6 +39,11 @@ const routes = [
         name: "apiTest",
         component: () => import(/* webpackChunkName: "basic" */ '@/views/api/AxiosTest.vue'),
       },
+      {
+        path: "/swiper",
+        name: "swiper",
+        component: () => import(/* webpackChunkName: "basic" */ '@/views/swiper/SwiperTest.vue'),
+      },
     ],
   },
 
