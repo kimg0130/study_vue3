@@ -55,6 +55,24 @@ npm i swiper
     <swiper-slide v-for="(item,idx) in prdList.list" :key="idx"><img :src="item.thumbnail" style="width: 100%; height: 200px"></swiper-slide>
   </swiper>
 
+
+  <v-divider class="mt-5 mb-5"></v-divider>
+
+  <div class="font-weight-bold text-blue">vertical</div>
+<!--  vertical 사용시 height지정필요-->
+  <swiper
+    :slides-per-view="1"
+    :space-between="0"
+    direction="vertical"
+    @swiper="onSwiper"
+    @slideChange="onSlideChange"
+    style="height: 200px"
+    :pagination="{ clickable: true }"
+    :modules="[Pagination]"
+  >
+    <swiper-slide v-for="(item,idx) in prdList.list" :key="idx"><img :src="item.thumbnail" style="width: 100%; height: 200px"></swiper-slide>
+  </swiper>
+
 </template>
 
 <script setup>
